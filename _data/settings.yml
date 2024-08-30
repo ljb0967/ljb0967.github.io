@@ -48,7 +48,8 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+blurb: 안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다 <br>
+Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -111,10 +112,10 @@ experience:
       organization: "Korea University Computer Science and Engineering",
     }
   - {
-      name: 5G network lab undergraduate student intern,
+      name: Undergraduate student intern,
       icon: "icon-3.png",
       date: "Jan 2024 - Present",
-      organization: "WIDEN",
+      organization: " 5G network lab WIDEN",
     }
 
 #-------------------------------
@@ -173,7 +174,7 @@ services:
 # Portfolio Home Section
 portfolio-home-items:
   - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://github.com/ljb0967/nerf-app"
 
   - image: "assets/images/portfolio/item-2.png"
     url: "#"
@@ -195,10 +196,9 @@ portfolio-label:
 
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://github.com/ljb0967/nerf-app"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "AI"
 
   - image: "assets/images/portfolio/item-2.png"
     url: "#"
