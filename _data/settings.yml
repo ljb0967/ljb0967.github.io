@@ -156,7 +156,8 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - name: nerf(Neural Radiance Field) #image: "assets/images/portfolio/item-1.png"
+  - title: nerf(Neural Radiance Field) #image: "assets/images/portfolio/item-1.png"
+    context: nerf(Neural Radiance Field)
     url: "https://github.com/ljb0967/nerf-app"
 
   - image: "assets/images/portfolio/item-2.png"
@@ -173,9 +174,9 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "Application", type: "design" }
-  - { title: "AI", type: "branding" }
-  - { title: "Study", type: "illustration" }
+  - { title: "Application", type: "Application" }
+  - { title: "AI", type: "AI" }
+  - { title: "Study", type: "Study" }
 
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
