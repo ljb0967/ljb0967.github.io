@@ -154,23 +154,23 @@ services:
 #-------------------------------
 # Portfolio (Section and Page)
 
-# Portfolio Home Section
-portfolio-home-items:
-  - title: nerf(Neural Radiance Field) #image: "assets/images/portfolio/item-1.png"
-    context: nerf(Neural Radiance Field)
-    url: "https://github.com/ljb0967/nerf-app"
+# # Portfolio Home Section
+# portfolio-home-items:
+#   - title: nerf(Neural Radiance Field) #image: "assets/images/portfolio/item-1.png"
+#     context: nerf(Neural Radiance Field)
+#     url: "https://github.com/ljb0967/nerf-app"
 
-  - image: "assets/images/portfolio/item-2.png"
-    url: "#"
+#   - image: "assets/images/portfolio/item-2.png"
+#     url: "#"
 
-  - image: "assets/images/portfolio/item-3.png"
-    url: "#"
+#   - image: "assets/images/portfolio/item-3.png"
+#     url: "#"
 
-  - image: "assets/images/portfolio/item-4.png"
-    url: "#"
+#   - image: "assets/images/portfolio/item-4.png"
+#     url: "#"
 
-  - image: "assets/images/portfolio/item-5.png"
-    url: "#"
+#   - image: "assets/images/portfolio/item-5.png"
+#     url: "#"
 
 # Portfolio Page
 portfolio-label:
