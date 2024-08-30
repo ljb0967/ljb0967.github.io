@@ -158,6 +158,7 @@ services:
 portfolio-home-items:
   - image: "assets/images/portfolio/item-1.png"
     url: "https://github.com/ljb0967/nerf-app"
+    name: nerf(Neural Radiance Field)
 
   - image: "assets/images/portfolio/item-2.png"
     url: "#"
