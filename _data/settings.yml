@@ -182,8 +182,8 @@ portfolio-items:
   - title: "nerf(Neural Radiance Field)"
     image: "assets/images/portfolio/nerf.jpg"
     url: "https://github.com/ljb0967/nerf-app"
-    category: "AI"
-    description: "An implementation of Neural Radiance Field (NeRF) for 3D scene reconstruction using deep learning."
+    portfolio-type:
+      - type: "AI"
 
 # portfolio-items:
 #   - image: "assets/images/portfolio/item-1.png"
