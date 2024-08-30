@@ -89,8 +89,8 @@ team:
 skills-title: Skills
 skills:
   - { name: Web Design, color: "#fdb157", value: "90%" }
-  - { name: Logo Design, color: "#9473e6", value: "60%" }
-  - { name: After Effects, color: "#bdecf6", value: "80%" }
+  - { name: AI research, color: "#9473e6", value: "60%" }
+  - { name: 5G Network, color: "#bdecf6", value: "80%" }
   - { name: Web App, color: "#ffbcaa", value: "70%" }
 
 #-------------------------------
@@ -99,22 +99,22 @@ skills:
 experience-title: Experience
 experience:
   - {
-      name: Junior UX Designer,
+      name: High school student,
       icon: "icon-1.png",
-      date: "Jan 2007 - Feb 2009",
-      organization: "WEBEX",
+      date: "Mar 2018 - Feb 2021",
+      organization: "yangchung high school",
     }
   - {
-      name: UX & UI Designer,
+      name: Undergraduate student,
       icon: "icon-2.png",
-      date: "Mar 2009 - Aug 2014",
-      organization: "AUGMEDIX",
+      date: "Mar 2022 - Present",
+      organization: "Korea University Computer Science and Engineering",
     }
   - {
-      name: Senior UI Designer,
+      name: 5G network lab undergraduate student intern,
       icon: "icon-3.png",
-      date: "Sep 2014 - Present",
-      organization: "THEMEFISHER",
+      date: "Jan 2024 - Present",
+      organization: "WIDEN",
     }
 
 #-------------------------------
@@ -123,24 +123,24 @@ experience:
 education-title: Education
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: ,
+      date: "",
+      organization: "",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: ,
+      date: "",
+      organization: "y",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
+      name: ,
+      date: "",
+      organization: "",
     }
   - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: ,
+      date: "",
+      organization: "",
     }
 
 #-------------------------------
@@ -189,9 +189,9 @@ portfolio-home-items:
 
 # Portfolio Page
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "Application", type: "design" }
+  - { title: "AI", type: "branding" }
+  - { title: "Study", type: "illustration" }
 
 portfolio-items:
   - image: "assets/images/portfolio/item-1.png"
