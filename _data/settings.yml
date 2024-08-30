@@ -178,7 +178,7 @@ portfolio-label:
   - { title: "AI", type: "AI" }
   - { title: "Study", type: "Study" }
 
-portfolio:
+portfolio-items:
   - title: "nerf(Neural Radiance Field)"
     image: ""
     url: "https://github.com/ljb0967/nerf-app"
