@@ -48,8 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: 안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다 <br>
-Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far
+blurb: 안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다  <br> Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far
 
 blurb-btn-link: "/about"
 blurb-btn-name: know more
@@ -123,26 +122,10 @@ experience:
 
 education-title: Education
 education:
-  - {
-      name: ,
-      date: "",
-      organization: "",
-    }
-  - {
-      name: ,
-      date: "",
-      organization: "y",
-    }
-  - {
-      name: ,
-      date: "",
-      organization: "",
-    }
-  - {
-      name: ,
-      date: "",
-      organization: "",
-    }
+  - { name: "", date: "", organization: "" }
+  - { name: "", date: "", organization: "y" }
+  - { name: "", date: "", organization: "" }
+  - { name: "", date: "", organization: "" }
 
 #-------------------------------
 # Services Section
@@ -153,7 +136,7 @@ services:
       name: UI Design,
       icon: ti-palette,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      active: "", # Add true to select section
     }
   - {
       name: UX Design,
@@ -165,7 +148,7 @@ services:
       name: Interaction Design,
       icon: ti-panel,
       description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      active: ,# Add true to select section
+      active: "", # Add true to select section
     }
 
 #-------------------------------
