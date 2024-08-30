@@ -120,12 +120,12 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
-education:
-  - { name: "", date: "", organization: "" }
-  - { name: "", date: "", organization: "y" }
-  - { name: "", date: "", organization: "" }
-  - { name: "", date: "", organization: "" }
+# education-title: Education
+# education:
+#   - { name: "", date: "", organization: "" }
+#   - { name: "", date: "", organization: "y" }
+#   - { name: "", date: "", organization: "" }
+#   - { name: "", date: "", organization: "" }
 
 #-------------------------------
 # Services Section
@@ -182,6 +182,8 @@ portfolio:
   - title: "nerf(Neural Radiance Field)"
     image: ""
     url: "https://github.com/ljb0967/nerf-app"
+    category: "AI"
+    description: "An implementation of Neural Radiance Field (NeRF) for 3D scene reconstruction using deep learning."
 
 # portfolio-items:
 #   - image: "assets/images/portfolio/item-1.png"
@@ -289,4 +291,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: leejaebinbinbin@gmail.com
