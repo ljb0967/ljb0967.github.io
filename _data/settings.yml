@@ -51,8 +51,8 @@ social:
 blurb:
   안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다  <br> Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far <br><br><br><br><br><h2>수상 및 프로젝트</h2>
 
-  <ul><br>
-  <li style="text-align: left;"><strong>- 2024년 8월 OUTTA 딥러닝 부트캠프 우수 프로젝트상 수상</strong></li>
+  <ul style="text-align:left"><br>
+  <li><strong>- 2024년 8월 OUTTA 딥러닝 부트캠프 우수 프로젝트상 수상</strong></li>
 
   <li><strong>P1:</strong> <a href="https://github.com/ljb0967/Sign-Language-Classification" target="_blank">Sign Language Classification</a> (Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks)</li>
   <li><strong>P2:</strong> <a href="https://github.com/ljb0967/Real-and-Fake-Job-Postings" target="_blank">Real and Fake Job Postings</a> (Dataset of real and fake job postings)</li>
