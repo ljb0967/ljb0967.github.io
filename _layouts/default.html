@@ -1,21 +1,33 @@
 ---
 layout: compress
 ---
+
 <!DOCTYPE html>
 <html lang="en">
+  <!-- {% include head.html %} -->
 
-{% include head.html %}
+  <head>
+    <!-- 기존 head.html 내용을 포함시킴 -->
+    {% include head.html %}
 
-<body>
+    <!-- Google Analytics 코드 삽입 -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-KHKPVQMPB"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  {% include header.html %}
+      gtag("config", "G-KHKPVQMPB");
+    </script>
+  </head>
 
-  {{ content }}
-
-  {% include contact-section.html %}
-
-  {% include footer.html %}
-
-</body>
-
+  <body>
+    {% include header.html %} {{ content }} {% include contact-section.html %}
+    {% include footer.html %}
+  </body>
 </html>
