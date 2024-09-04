@@ -48,33 +48,34 @@ social:
 # About (Section and Page)
 
 # About Section
-# blurb:
-#   안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다  <br> Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far <br><br><br><br><br><h2>수상 및 프로젝트</h2>
+blurb:
+  안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다  <br> Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far <br><br><br><br><br><h2>수상 및 프로젝트</h2>
 
-#   <ul style="text-align:left"><br>
-#   <li><strong>-  2024년 8월 OUTTA 딥러닝 부트캠프 우수 프로젝트상 수상</strong></li>
+  <ul style="text-align:left"><br>
+  <li><strong>-  2024년 8월 OUTTA 딥러닝 부트캠프 우수 프로젝트상 수상</strong></li>
 
-#   <li><strong>P1:</strong> <a href="https://github.com/ljb0967/Sign-Language-Classification" target="_blank">Sign Language Classification</a> (Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks)</li>
-#   <li><strong>P2:</strong> <a href="https://github.com/ljb0967/Real-and-Fake-Job-Postings" target="_blank">Real and Fake Job Postings</a> (Dataset of real and fake job postings)</li>
-#   <li><strong>P3:</strong> <a href="https://github.com/ljb0967/Music-Genre-Classification" target="_blank">Music Genre Classification</a> (Classify music genres using datasets collected from a variety of sources, including personal CDs, radio, microphone recordings, and more)</li><br>
+  <li><strong>P1:</strong> <a href="https://github.com/ljb0967/Sign-Language-Classification" target="_blank">Sign Language Classification</a> (Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks)</li>
+  <li><strong>P2:</strong> <a href="https://github.com/ljb0967/Real-and-Fake-Job-Postings" target="_blank">Real and Fake Job Postings</a> (Dataset of real and fake job postings)</li>
+  <li><strong>P3:</strong> <a href="https://github.com/ljb0967/Music-Genre-Classification" target="_blank">Music Genre Classification</a> (Classify music genres using datasets collected from a variety of sources, including personal CDs, radio, microphone recordings, and more)</li><br>
 
-#   <li><strong>-  대학생 튜터링 플랫폼 with React, next.js</strong></li><br>
+  <li><strong>-  대학생 튜터링 플랫폼 with React, next.js</strong></li><br>
 
-#   <li><strong>-  온디바이스 NeRF을 위한 개선 방안 연구</strong></li>
+  <li><strong>-  온디바이스 NeRF을 위한 개선 방안 연구</strong></li>
 
-#   <li><strong>nerf app </strong> <a href="https://github.com/ljb0967/nerf-app" target="_blank">link</a></li><br>
+  <li><strong>nerf app </strong> <a href="https://github.com/ljb0967/nerf-app" target="_blank">link</a></li><br>
 
-#   <li><strong>-  LEO 위성 통신의 최적의 버퍼 사이즈 결정</strong></li><br>
+  <li><strong>-  LEO 위성 통신의 최적의 버퍼 사이즈 결정</strong></li><br>
 
-#   <li><strong>-  광진구 데이터분석공모전 출전</strong></li><br>
+  <li><strong>-  광진구 데이터분석공모전 출전</strong></li><br>
 
-#   <li><strong>-  해커톤</strong></li><br>
+  <li><strong>-  해커톤</strong></li><br>
 
-#   <li><strong>-  자격증 앱 만들기 with flutter</strong></li>
+  <li><strong>-  자격증 앱 만들기 with flutter</strong></li>
 
-#   </ul>
-# blurb-btn-link: "/portfolio"
-# blurb-btn-name: know more
+  </ul>
+
+blurb-btn-link: "/portfolio"
+blurb-btn-name: know more
 
 # About Page
 
@@ -141,34 +142,6 @@ experience:
     }
 
 #-------------------------------------------------
-
-blurb:
-  안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다  <br> Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far <br><br><br><br><br><h2>수상 및 프로젝트</h2>
-
-  <ul style="text-align:left"><br>
-  <li><strong>-  2024년 8월 OUTTA 딥러닝 부트캠프 우수 프로젝트상 수상</strong></li>
-
-  <li><strong>P1:</strong> <a href="https://github.com/ljb0967/Sign-Language-Classification" target="_blank">Sign Language Classification</a> (Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks)</li>
-  <li><strong>P2:</strong> <a href="https://github.com/ljb0967/Real-and-Fake-Job-Postings" target="_blank">Real and Fake Job Postings</a> (Dataset of real and fake job postings)</li>
-  <li><strong>P3:</strong> <a href="https://github.com/ljb0967/Music-Genre-Classification" target="_blank">Music Genre Classification</a> (Classify music genres using datasets collected from a variety of sources, including personal CDs, radio, microphone recordings, and more)</li><br>
-
-  <li><strong>-  대학생 튜터링 플랫폼 with React, next.js</strong></li><br>
-
-  <li><strong>-  온디바이스 NeRF을 위한 개선 방안 연구</strong></li>
-
-  <li><strong>nerf app </strong> <a href="https://github.com/ljb0967/nerf-app" target="_blank">link</a></li><br>
-
-  <li><strong>-  LEO 위성 통신의 최적의 버퍼 사이즈 결정</strong></li><br>
-
-  <li><strong>-  광진구 데이터분석공모전 출전</strong></li><br>
-
-  <li><strong>-  해커톤</strong></li><br>
-
-  <li><strong>-  자격증 앱 만들기 with flutter</strong></li>
-
-  </ul>
-blurb-btn-link: "/portfolio"
-blurb-btn-name: know more
 
 #-------------------------------
 # Education Section
