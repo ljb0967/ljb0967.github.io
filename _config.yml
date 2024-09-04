@@ -11,6 +11,15 @@ compress_html:
   comments: all
   startings: [html, head, body]
 
+# Analytics
+analytics:
+  provider:
+    "google-gtag"
+    # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-KHKPVQMPLB"
+    anonymize_ip: # true, false (default)
+
 # Pages Path
 defaults:
   - scope:
