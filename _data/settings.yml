@@ -225,6 +225,12 @@ portfolio-items:
     portfolio-type:
       - type: "AI"
 
+  - title: "debate timer"
+    image: "assets/images/portfolio/timer.jpg
+    url: "https://github.com/ljb0967/gorandoran-timer
+    portfolio-type:
+      - type: "Application"
+
 # portfolio-items:
 #   - image: "assets/images/portfolio/item-1.png"
 #     url: "https://github.com/ljb0967/nerf-app"
