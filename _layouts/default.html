@@ -1,38 +1,9 @@
----
-layout: compress
----
-
 <!DOCTYPE html>
 <html lang="en">
   {% include head.html %}
 
   <body>
-    {% include header.html %}
-    {{ content }}
-    {% include contact-section.html %}
-
-    <!-- ① 방문자 수를 표시할 요소 (푸터 위에 넣기) -->
-    <div id="daily-visit-count" style="padding: 1em; text-align: center;">
-      오늘 방문자: 집계 중...
-    </div>
-
+    {% include header.html %} {{ content }} {% include contact-section.html %}
     {% include footer.html %}
-
-    <!-- ② CountAPI 호출 스크립트 (body 안, 푸터 포함 후) -->
-    <script>
-    (function(){
-      const today = new Date().toISOString().slice(0,10);
-      const namespace = "{{ site.visitor_counter.namespace }}";
-      const prefix    = "{{ site.visitor_counter.key_prefix }}";
-      const key       = `${prefix}_${today}`;
-      fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
-        .then(res => res.json())
-        .then(json => {
-          document.getElementById("daily-visit-count")
-                  .textContent = `오늘 방문자: ${json.value}명`;
-        })
-        .catch(err => console.error("CountAPI error", err));
-    })();
-    </script>
   </body>
 </html>
