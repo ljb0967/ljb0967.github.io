@@ -1,3 +1,6 @@
+# ljb0967 개인 포트폴리오 사이트
+안녕하세요
+
 # Kross Jekyll
 
 Kross Jekyll Creative Portfolio Template ported from [Kross HTML Template](https://themefisher.com/products/kross/)
