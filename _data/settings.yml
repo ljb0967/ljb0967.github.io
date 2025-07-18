@@ -226,7 +226,7 @@ portfolio-items:
       - type: "AI"
 
   - title: "debate timer"
-    image: "assets/images/portfolio/timer.jpg
+    image: "timer.png"
     url: "https://github.com/ljb0967/gorandoran-timer
     portfolio-type:
       - type: "Application"
