@@ -227,7 +227,7 @@ portfolio-items:
 
   - title: "debate timer"
     image: "timer.png"
-    url: "https://github.com/ljb0967/gorandoran-timer
+    url: "https://github.com/ljb0967/gorandoran-timer"
     portfolio-type:
       - type: "Application"
 
