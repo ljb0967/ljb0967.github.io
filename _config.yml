@@ -41,3 +41,9 @@ exclude:
   - LICENSE.text
   - README.md
   - SECURITY.md
+
+
+visitor_counter:
+  provider:   countapi
+  namespace:  ljb0967.github.io
+  key_prefix: daily_visits
