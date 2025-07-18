@@ -87,51 +87,6 @@ blurb: |
 
   </ul>
 
-  <div id="daily-visit-count">오늘 방문자: 집계 중...</div>
-  <script>
-  ;(function(){
-    const today = new Date().toISOString().slice(0,10);
-    // **올바른 경로**로 변경**
-    const ns  = "{{ site.data.settings.visitor_counter.namespace }}";
-    const pre = "{{ site.data.settings.visitor_counter.key_prefix }}";
-    const key = `${pre}_${today}`;
-  
-    // 디버그 로그 (Console 열어서 확인해 보세요)
-    console.log("CountAPI namespace:", ns);
-    console.log("CountAPI key:", key);
-  
-    fetch(`https://api.countapi.xyz/hit/${ns}/${key}`)
-      .then(res => {
-        console.log("CountAPI status:", res.status);
-        return res.json();
-      })
-      .then(json => {
-        console.log("CountAPI response:", json);
-        document.getElementById("daily-visit-count")
-                .textContent = `오늘 방문자: ${json.value}명`;
-      })
-      .catch(err => console.error("CountAPI error:", err));
-  })();
-  </script>
-  
-  # <script>
-  #   (function(){
-  #   const today = new Date().toISOString().slice(0,10);
-  #   const ns    = "{{ site.visitor_counter.namespace }}";
-  #   const pre   = "{{ site.visitor_counter.key_prefix }}";
-  #   const key   = `${pre}_${today}`;
-  #   fetch(`https://api.countapi.xyz/hit/${ns}/${key}`)
-  #     .then(r=>r.json())
-  #     .then(j=> {
-  #       document.getElementById("daily-visit-count")
-  #               .textContent = `오늘 방문자: ${j.value}명`;
-  #     });
-  #   })();
-  # </script>
-
-  
-
-
 blurb-btn-link: "/portfolio"
 blurb-btn-name: know more
 
