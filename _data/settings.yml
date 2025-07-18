@@ -85,24 +85,23 @@ blurb:
   <li><strong>licenser app </strong> <a href="https://github.com/ljb0967/Licenser" target="_blank">link</a></li><br><br><br><br><br>
   <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fljb0967.github.io&count_bg=%23555555&title_bg=%23555555&icon=minutemailer.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 
+  </ul>
 
   <div id="daily-visit-count">오늘 방문자: 집계 중...</div>
-<script>
-(function(){
-  const today = new Date().toISOString().slice(0,10);
-  const ns    = "{{ site.visitor_counter.namespace }}";
-  const pre   = "{{ site.visitor_counter.key_prefix }}";
-  const key   = `${pre}_${today}`;
-  fetch(`https://api.countapi.xyz/hit/${ns}/${key}`)
-    .then(r=>r.json())
-    .then(j=> {
-      document.getElementById("daily-visit-count")
-              .textContent = `오늘 방문자: ${j.value}명`;
-    });
-})();
-</script>
-
-  </ul>
+  <script>
+    (function(){
+    const today = new Date().toISOString().slice(0,10);
+    const ns    = "{{ site.visitor_counter.namespace }}";
+    const pre   = "{{ site.visitor_counter.key_prefix }}";
+    const key   = `${pre}_${today}`;
+    fetch(`https://api.countapi.xyz/hit/${ns}/${key}`)
+      .then(r=>r.json())
+      .then(j=> {
+        document.getElementById("daily-visit-count")
+                .textContent = `오늘 방문자: ${j.value}명`;
+      });
+    })();
+  </script>
 
 blurb-btn-link: "/portfolio"
 blurb-btn-name: know more
