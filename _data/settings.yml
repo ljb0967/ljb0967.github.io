@@ -48,7 +48,7 @@ social:
 # About (Section and Page)
 
 # About Section
-blurb: |
+blurb: 
   안녕하세요 저의 홈페이지에 오신 것을 환영합니다 여기에는 저에 대한 프로필과 제가 지금까지 해온 프로젝트들이 정리되어있습니다  <br> Welcome to my website! Here, you can find my profile and a summary of the projects I have worked on so far <br><br><br><br><br><h2>수상 및 프로젝트</h2><br><br><br>
 
   <ul style="text-align:left"><br>
@@ -83,7 +83,6 @@ blurb: |
   <li><h4>-  2023년 1월 라이센서 자격증 앱 만들기 with flutter</h4></li>
 
   <li><strong>licenser app </strong> <a href="https://github.com/ljb0967/Licenser" target="_blank">link</a></li><br><br><br><br><br>
-  # <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fljb0967.github.io&count_bg=%23555555&title_bg=%23555555&icon=minutemailer.svg&icon_color=%23E7E7E7&title=hits&edge_flat=false"/></a>
 
   </ul>
 
