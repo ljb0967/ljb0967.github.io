@@ -87,22 +87,7 @@ blurb: |
 
   </ul>
 
-  # <div id="daily-visit-count">오늘 방문자: 집계 중...</div>
-  # <script>
-  #   (function(){
-  #   const today = new Date().toISOString().slice(0,10);
-  #   const ns    = "{{ site.visitor_counter.namespace }}";
-  #   const pre   = "{{ site.visitor_counter.key_prefix }}";
-  #   const key   = `${pre}_${today}`;
-  #   fetch(`https://api.countapi.xyz/hit/${ns}/${key}`)
-  #     .then(r=>r.json())
-  #     .then(j=> {
-  #       document.getElementById("daily-visit-count")
-  #               .textContent = `오늘 방문자: ${j.value}명`;
-  #     });
-  #   })();
-  # </script>
-
+  <div id="daily-visit-count">오늘 방문자: 집계 중...</div>
   <script>
 ;(function(){
   const today = new Date().toISOString().slice(0,10);
@@ -128,6 +113,22 @@ blurb: |
     .catch(err => console.error("CountAPI error:", err));
 })();
 </script>
+  # <script>
+  #   (function(){
+  #   const today = new Date().toISOString().slice(0,10);
+  #   const ns    = "{{ site.visitor_counter.namespace }}";
+  #   const pre   = "{{ site.visitor_counter.key_prefix }}";
+  #   const key   = `${pre}_${today}`;
+  #   fetch(`https://api.countapi.xyz/hit/${ns}/${key}`)
+  #     .then(r=>r.json())
+  #     .then(j=> {
+  #       document.getElementById("daily-visit-count")
+  #               .textContent = `오늘 방문자: ${j.value}명`;
+  #     });
+  #   })();
+  # </script>
+
+  
 
 
 blurb-btn-link: "/portfolio"
