@@ -230,7 +230,7 @@ portfolio-items:
       - type: "Application"
 
   - title: "nerf app"
-    image: "timer.png"
+    image: "nerf_app.png"
     url: "https://github.com/ljb0967/nerf_app"
     portfolio-type:
       - type: "Application"
