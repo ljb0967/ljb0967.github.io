@@ -229,6 +229,12 @@ portfolio-items:
     portfolio-type:
       - type: "Application"
 
+  - title: "nerf app"
+    image: "timer.png"
+    url: "https://github.com/ljb0967/nerf_app"
+    portfolio-type:
+      - type: "Application"
+
 # portfolio-items:
 #   - image: "assets/images/portfolio/item-1.png"
 #     url: "https://github.com/ljb0967/nerf-app"
