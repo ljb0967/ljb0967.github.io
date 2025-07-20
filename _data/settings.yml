@@ -70,7 +70,7 @@ blurb:
 
   <li><h4>-  2024년 여름방학 온디바이스 NeRF을 위한 개선 방안 연구 with flutter</h4></li>
 
-  <li><strong>nerf app </strong> <a href="https://github.com/ljb0967/nerf-app" target="_blank">link</a></li><br>
+  <li><strong>nerf app </strong> <a href="https://github.com/ljb0967/nerf_app" target="_blank">link</a></li><br>
 
   <li><h4>-  2024년 1학기 LEO 위성 통신의 최적의 버퍼 사이즈 결정 with ns3</h4></li><br>
 
@@ -219,7 +219,7 @@ portfolio-label:
 portfolio-items:
   - title: "nerf(Neural Radiance Field)"
     image: "assets/images/portfolio/nerf.jpg"
-    url: "https://github.com/ljb0967/nerf-app"
+    url: "https://github.com/ljb0967/nerf_app"
     portfolio-type:
       - type: "AI"
 
