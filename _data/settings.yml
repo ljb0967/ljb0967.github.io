@@ -72,6 +72,8 @@ blurb:
 
   <li><h4>"우수 프로젝트상 수상"</h4></li><br>
 
+  <img src="award2.jpg" alt=" 수상 사진2" width="300" style="display:block; margin-left:auto; margin-right:auto;>
+
   <li><strong>P1:</strong> <a href="https://github.com/ljb0967/Sign-Language-Classification" target="_blank">Sign Language Classification</a> (Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks)</li>
   <li><strong>P2:</strong> <a href="https://github.com/ljb0967/Real-and-Fake-Job-Postings" target="_blank">Real and Fake Job Postings</a> (Dataset of real and fake job postings)</li>
   <li><strong>P3:</strong> <a href="https://github.com/ljb0967/Music-Genre-Classification" target="_blank">Music Genre Classification</a> (Classify music genres using datasets collected from a variety of sources, including personal CDs, radio, microphone recordings, and more)</li><br>
