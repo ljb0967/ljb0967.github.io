@@ -72,7 +72,7 @@ blurb:
 
   <li><h4>"우수 프로젝트상 수상"</h4></li><br>
 
-  <img src="award2.jpg" alt=" 수상 사진2" width="300" style="display:block; margin-left:auto; margin-right:auto; margin-bottom:30px;>
+  <img src="award2.jpg" alt=" 수상 사진2" width="300" style="display:block; margin-left:auto; margin-right:auto; margin-bottom:30px;">
 
   <li><strong>P1:</strong> <a href="https://github.com/ljb0967/Sign-Language-Classification" target="_blank">Sign Language Classification</a> (Drop-In Replacement for MNIST for Hand Gesture Recognition Tasks)</li>
   <li><strong>P2:</strong> <a href="https://github.com/ljb0967/Real-and-Fake-Job-Postings" target="_blank">Real and Fake Job Postings</a> (Dataset of real and fake job postings)</li>
